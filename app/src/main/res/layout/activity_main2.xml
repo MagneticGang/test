@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/userProfileTV"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="유저의 정보"
+        />
+
+    <Button
+        android:id="@+id/ckUserBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인 유저 확인" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그아웃" />
+
+    <!--<Button-->
+        <!--android:id="@+id/deleteBtn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="회원탈퇴" />-->
+
+
+</LinearLayout>

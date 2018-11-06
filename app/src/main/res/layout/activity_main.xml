@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/mainLinear"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:id="@+id/emailEdit"
+        android:layout_width="250dp"
+        android:layout_height="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="이메일"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/emailEditCk"
+        android:layout_width="250dp"
+        android:layout_height="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="이메일 확인"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/psdEdit"
+        android:layout_width="250dp"
+        android:layout_height="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/psdEditCk"
+        android:layout_width="250dp"
+        android:layout_height="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="비밀번호 확인"
+        android:inputType="textPassword"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/nameEdit"
+        android:layout_width="250dp"
+        android:layout_height="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="별명"
+        android:inputType="text"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="회원 가입" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="이용약관 및 \n개인정보 보호정책에 동의합니다." />
+
+    <EditText
+        android:id="@+id/loginIdEdit"
+        android:layout_width="250dp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="아이디"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/loginPsdEdit"
+        android:layout_width="250dp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/loginSubmitBtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="로그인" />
+
+</LinearLayout>
